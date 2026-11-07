@@ -2,7 +2,7 @@
 ## Topics Covered.
 >1. Git, GitHub and Repository
 >2. Commit Changes With Terminal Command
->3. Commit Changes Using Github Desktop
+>3. Commit Changes Using GitHub Desktop
 >4. Clun a Repositories into a Code space or VScode
 >5. Marge Conflicts and Resolved it
 ## Weekly Activity.
@@ -20,6 +20,43 @@ Typing the Following Command;
 4. `Git Push:` its enable you to Upload All changes back to the original GitHub Project
 ---
 ### Week 3.
-I learn how to commit changes in GitHub project with GitHub Desktop App.
+I learn how to commit changes in GitHub project with GitHub Desktop App by Clun My project with GitHub Desktop to edit the project with VScode then commit the changes and Push it back into the original project on GitHub Account all by Using with GitHub Desktop.
+---
+### Week 4.
+I learn Merge Conflicts and how Resolve it.
+*What causes merge conflicts in GitHub is when
+A merge conflict happens when Git finds changes in two branches that it cannot automatically combine.
+This usually happens when two or more developers work on the same file or the same lines of code.
+1. Two developers edit the same line
 
+For example:
+Developer A changes index.html to:
+<h1>Welcome to my website</h1>
 
+Developer B changes the same line to:
+<h1>Welcome to my portfolio</h1>
+
+When both changes are merged, Git doesn't know which version you want to keep.
+This causes a merge conflict.
+
+*How to resolve a merge conflict in GitHub
+Step 1: Check the conflict
+Open your project terminal and run:
+git status
+You may see:
+both modified: index.html
+This means index.html has conflicting changes.
+Step 2: Open the conflicting file
+Open index.html in VS Code.
+You may see something like this:
+<<<<<<< HEAD
+<h1>Hello World</h1>
+<h1>Welcome to my website</h1>
+>>>>>>> main
+Step 3: Choose which code to keep
+VS Code will show options:
+- Accept Current Change: Keep your current branch's code.
+- Accept Incoming Change: Keep the code coming from the other branch.
+- Accept Both Changes: Keep both versions.
+For example, you can resolve the conflict by changing the code to:
+<h1>Welcome to my website</h1>
