@@ -31,32 +31,33 @@ This usually happens when two or more developers work on the same file or the sa
 
 For example:
 Developer A changes index.html to:
-<h1>Welcome to my website</h1>
+1. <h1> Welcome to my website </h1>
 
 Developer B changes the same line to:
-<h1>Welcome to my portfolio</h1>
+2. <h1> Welcome to my portfolio </h1>
 
 When both changes are merged, Git doesn't know which version you want to keep.
 This causes a merge conflict.
 
 *How to resolve a merge conflict in GitHub
+
 Step 1: Check the conflict
 Open your project terminal and run:
 git status
 You may see:
 both modified: index.html
 This means index.html has conflicting changes.
+
 Step 2: Open the conflicting file
 Open index.html in VS Code.
 You may see something like this:
-<<<<<<< HEAD
-<h1>Hello World</h1>
-<h1>Welcome to my website</h1>
->>>>>>> main
+3. <h1> Hello World </h1>
+4. <h1> Welcome to my website </h1>
+
 Step 3: Choose which code to keep
 VS Code will show options:
 - Accept Current Change: Keep your current branch's code.
 - Accept Incoming Change: Keep the code coming from the other branch.
 - Accept Both Changes: Keep both versions.
 For example, you can resolve the conflict by changing the code to:
-<h1>Welcome to my website</h1>
+5. <h1> Welcome to my website </h1>
