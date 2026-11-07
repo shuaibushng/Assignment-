@@ -19,8 +19,8 @@ Typing the Following Command;
 3. `Git Commit -m ("your message"):` This will allows you to save all the changes into your project and write a message on what contains in the file.
 4. `Git Push:` its enable you to Upload All changes back to the original GitHub Project
 ---
-### Week 3.
-I learn how to commit changes in GitHub project with GitHub Desktop App by Clun My project with GitHub Desktop to edit the project with VScode then commit the changes and Push it back into the original project on GitHub Account all by Using with GitHub Desktop.
+### Week 3. 
+* I learn how to commit changes in GitHub project with GitHub Desktop App by Clun My project with GitHub Desktop to edit the project with VScode then commit the changes and Push it back into the original project on GitHub Account all by Using with GitHub Desktop.
 ---
 ### Week 4.
 I learn Merge Conflicts and how Resolve it.
@@ -31,10 +31,10 @@ This usually happens when two or more developers work on the same file or the sa
 
 For example:
 Developer A changes index.html to:
-1. <h1> Welcome to my website </h1>
+(Welcome to my website)
 
 Developer B changes the same line to:
-2. <h1> Welcome to my portfolio </h1>
+(Welcome to my portfolio)
 
 When both changes are merged, Git doesn't know which version you want to keep.
 This causes a merge conflict.
@@ -51,8 +51,8 @@ This means index.html has conflicting changes.
 Step 2: Open the conflicting file
 Open index.html in VS Code.
 You may see something like this:
-3. <h1> Hello World </h1>
-4. <h1> Welcome to my website </h1>
+(Hello World)
+(Welcome to my website)
 
 Step 3: Choose which code to keep
 VS Code will show options:
@@ -60,4 +60,4 @@ VS Code will show options:
 - Accept Incoming Change: Keep the code coming from the other branch.
 - Accept Both Changes: Keep both versions.
 For example, you can resolve the conflict by changing the code to:
-5. <h1> Welcome to my website </h1>
+(Welcome to my website)
