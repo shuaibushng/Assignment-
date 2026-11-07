@@ -12,7 +12,7 @@
 3. And Make a Pull Request.
 ---
 ### Week 2.
-I learn How to Commit changes in GitHub project with terminal command By
+* I learn How to Commit changes in GitHub project with terminal command By
 Typing the Following Command;
 1. `Git Status:` it allowed you to Detect an error in the project
 2. `Git Add-all:` it enable to add all of your changes in the project
@@ -23,8 +23,8 @@ Typing the Following Command;
 * I learn how to commit changes in GitHub project with GitHub Desktop App by Clun My project with GitHub Desktop to edit the project with VScode then commit the changes and Push it back into the original project on GitHub Account all by Using with GitHub Desktop.
 ---
 ### Week 4.
-I learn Merge Conflicts and how Resolve it.
-*What causes merge conflicts in GitHub is when
+* I learn Merge Conflicts and how Resolve it.
+* What causes merge conflicts in GitHub is when
 A merge conflict happens when Git finds changes in two branches that it cannot automatically combine.
 This usually happens when two or more developers work on the same file or the same lines of code.
 1. Two developers edit the same line
