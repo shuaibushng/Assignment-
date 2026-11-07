@@ -1,2 +1,2 @@
 # Assignment-
-| shuaibu/ | abubakar/
+| shuaibu | abubakar|
