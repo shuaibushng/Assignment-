@@ -7,8 +7,9 @@
 >5. Marge Conflicts and Resolved it
 ## Weekly Activity.
 ### Week 1.
-1. I Create GitHub Account, learn How to create Repository
-and Make a Pull Request.
+1. I Create GitHub Account
+2. learn How to create Repository
+3. And Make a Pull Request.
 ---
 ### Week 2.
 I learn How to Commit changes in GitHub project with terminal command By
