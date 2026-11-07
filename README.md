@@ -31,10 +31,10 @@ This usually happens when two or more developers work on the same file or the sa
 
 For example:
 Developer A changes index.html to:
-(Welcome to my website)
+* (Welcome to my website)
 
 Developer B changes the same line to:
-(Welcome to my portfolio)
+* (Welcome to my portfolio)
 
 When both changes are merged, Git doesn't know which version you want to keep.
 This causes a merge conflict.
@@ -51,8 +51,8 @@ This means index.html has conflicting changes.
 Step 2: Open the conflicting file
 Open index.html in VS Code.
 You may see something like this:
-(Hello World)
-(Welcome to my website)
+* (Hello World)
+* (Welcome to my website)
 
 Step 3: Choose which code to keep
 VS Code will show options:
@@ -60,4 +60,4 @@ VS Code will show options:
 - Accept Incoming Change: Keep the code coming from the other branch.
 - Accept Both Changes: Keep both versions.
 For example, you can resolve the conflict by changing the code to:
-(Welcome to my website)
+* (Welcome to my website)
